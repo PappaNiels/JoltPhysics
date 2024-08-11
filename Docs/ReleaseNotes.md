@@ -2,7 +2,7 @@
 
 For breaking API changes see [this document](https://github.com/jrouwe/JoltPhysics/blob/master/Docs/APIChanges.md).
 
-## Unreleased changes
+## v5.1.0
 
 ### New functionality
 
@@ -26,6 +26,7 @@ For breaking API changes see [this document](https://github.com/jrouwe/JoltPhysi
 
 * Added CharacterBaseSettings::mEnhancedInternalEdgeRemoval (default false) that allows smoother movement for both the Character and CharacterVirtual class.
 * Added ability for a CharacterVirtual to collide with another CharacterVirtual by using the new CharacterVsCharacterCollision interface.
+* Added the option to add an inner rigid body to a CharacterVirtual. This allows it to interact with sensors through the regular ContactListener and to be found by normal collision checks.
 
 #### Vehicles
 
@@ -47,6 +48,7 @@ For breaking API changes see [this document](https://github.com/jrouwe/JoltPhysi
 * Added USE_WASM_SIMD cmake option. This will enable SIMD on the emscripten WASM build.
 * Emscripten WASM build can now be compiled cross platform deterministic and deliver the same results as Windows, Linux etc.
 * Added Shape::MakeScaleValid function. This function will take a scale vector and check it against the scaling rules for the shape. If it is not valid, it will return a scale that is close to the provided scale which is valid.
+* Added cmake options to toggle exception-handling and RTTI. CPP_EXCEPTIONS_ENABLED enables exceptions, CPP_RTTI_ENABLED enables RTTI. By default they're both off as Jolt doesn't use these features. In the PerformanceTest this speeds up the simulation by about 5% for MSVC, no difference was measured for clang.
 
 ### Bug fixes
 

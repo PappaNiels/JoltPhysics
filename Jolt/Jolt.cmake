@@ -499,7 +499,20 @@ endif()
 target_include_directories(Jolt PUBLIC
 	$<BUILD_INTERFACE:${PHYSICS_REPO_ROOT}>
 	$<INSTALL_INTERFACE:include/>)
-target_precompile_headers(Jolt PRIVATE ${JOLT_PHYSICS_ROOT}/Jolt.h)
+
+# Code coverage doesn't work when using precompiled headers
+if (CMAKE_GENERATOR STREQUAL "Ninja Multi-Config" AND MSVC)
+	# The Ninja Multi-Config generator errors out when selectively disabling precompiled headers for certain configurations.
+	# See: https://github.com/jrouwe/JoltPhysics/issues/1211
+	target_precompile_headers(Jolt PRIVATE "${JOLT_PHYSICS_ROOT}/Jolt.h")
+else()
+	target_precompile_headers(Jolt PRIVATE "$<$<NOT:$<CONFIG:ReleaseCoverage>>:${JOLT_PHYSICS_ROOT}/Jolt.h>")
+endif()
+
+if (NOT CPP_EXCEPTIONS_ENABLED)
+	# Disable use of exceptions in MSVC's STL
+	target_compile_definitions(Jolt PUBLIC $<$<BOOL:${MSVC}>:_HAS_EXCEPTIONS=0>)
+endif()
 
 # Set the debug/non-debug build flags
 target_compile_definitions(Jolt PUBLIC "$<$<CONFIG:Debug>:_DEBUG>")
