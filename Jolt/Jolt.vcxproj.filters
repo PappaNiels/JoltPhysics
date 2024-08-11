@@ -1,0 +1,1417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\CMakeFiles\Jolt.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\AABBTree\AABBTreeBuilder.cpp">
+      <Filter>AABBTree</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Color.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Factory.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\IssueReporting.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\JobSystemSingleThreaded.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\JobSystemThreadPool.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\JobSystemWithBarrier.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\LinearCurve.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Memory.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Profiler.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\RTTI.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Semaphore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\StringTools.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\TickCounter.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\ConvexHullBuilder.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\ConvexHullBuilder2D.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\Indexify.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\OrientedBox.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Vec3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\SerializableObject.cpp">
+      <Filter>ObjectStream</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\Body.cpp">
+      <Filter>Physics\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyAccess.cpp">
+      <Filter>Physics\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyCreationSettings.cpp">
+      <Filter>Physics\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyInterface.cpp">
+      <Filter>Physics\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyManager.cpp">
+      <Filter>Physics\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\MassProperties.cpp">
+      <Filter>Physics\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\MotionProperties.cpp">
+      <Filter>Physics\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Character\Character.cpp">
+      <Filter>Physics\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Character\CharacterBase.cpp">
+      <Filter>Physics\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Character\CharacterVirtual.cpp">
+      <Filter>Physics\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\BroadPhase.cpp">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\BroadPhaseBruteForce.cpp">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\BroadPhaseQuadTree.cpp">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\QuadTree.cpp">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CastConvexVsTriangles.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CastSphereVsTriangles.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollideConvexVsTriangles.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollideSphereVsTriangles.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollisionDispatch.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollisionGroup.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\EstimateCollisionResponse.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\GroupFilter.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\GroupFilterTable.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\ManifoldBetweenTwoFaces.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\NarrowPhaseQuery.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\NarrowPhaseStats.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\PhysicsMaterial.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\PhysicsMaterialSimple.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\BoxShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\CapsuleShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\CompoundShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\ConvexHullShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\ConvexShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\CylinderShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\DecoratedShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\HeightFieldShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\MeshShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\MutableCompoundShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\OffsetCenterOfMassShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\RotatedTranslatedShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\ScaledShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\Shape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\SphereShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\StaticCompoundShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\TaperedCapsuleShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\TriangleShape.cpp">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\TransformedShape.cpp">
+      <Filter>Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConeConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\Constraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintManager.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ContactConstraintManager.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\DistanceConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\FixedConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\GearConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\HingeConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\MotorSettings.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\PathConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\PathConstraintPath.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\PathConstraintPathHermite.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\PointConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\PulleyConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\RackAndPinionConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\SixDOFConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\SliderConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\SpringSettings.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\SwingTwistConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\TwoBodyConstraint.cpp">
+      <Filter>Physics\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\DeterminismLog.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\IslandBuilder.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\LargeIslandSplitter.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\PhysicsLock.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\PhysicsScene.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\PhysicsSystem.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\PhysicsUpdateContext.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Ragdoll\Ragdoll.cpp">
+      <Filter>Physics\Ragdoll</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\SoftBody\SoftBodyCreationSettings.cpp">
+      <Filter>Physics\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\SoftBody\SoftBodyMotionProperties.cpp">
+      <Filter>Physics\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\SoftBody\SoftBodyShape.cpp">
+      <Filter>Physics\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\SoftBody\SoftBodySharedSettings.cpp">
+      <Filter>Physics\SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\StateRecorderImpl.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\MotorcycleController.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\TrackedVehicleController.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleAntiRollBar.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleCollisionTester.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleConstraint.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleController.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleDifferential.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleEngine.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleTrack.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleTransmission.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\Wheel.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\WheeledVehicleController.cpp">
+      <Filter>Physics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\RegisterTypes.cpp" />
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Renderer\DebugRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Renderer\DebugRendererPlayback.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Renderer\DebugRendererRecorder.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Renderer\DebugRendererSimple.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Skeleton\SkeletalAnimation.cpp">
+      <Filter>Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Skeleton\Skeleton.cpp">
+      <Filter>Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Skeleton\SkeletonMapper.cpp">
+      <Filter>Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Skeleton\SkeletonPose.cpp">
+      <Filter>Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleGrouper\TriangleGrouperClosestCentroid.cpp">
+      <Filter>TriangleGrouper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleGrouper\TriangleGrouperMorton.cpp">
+      <Filter>TriangleGrouper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleSplitter\TriangleSplitter.cpp">
+      <Filter>TriangleSplitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleSplitter\TriangleSplitterBinning.cpp">
+      <Filter>TriangleSplitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleSplitter\TriangleSplitterFixedLeafSize.cpp">
+      <Filter>TriangleSplitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleSplitter\TriangleSplitterLongestAxis.cpp">
+      <Filter>TriangleSplitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleSplitter\TriangleSplitterMean.cpp">
+      <Filter>TriangleSplitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleSplitter\TriangleSplitterMorton.cpp">
+      <Filter>TriangleSplitter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStream.cpp">
+      <Filter>ObjectStream</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamBinaryIn.cpp">
+      <Filter>ObjectStream</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamBinaryOut.cpp">
+      <Filter>ObjectStream</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamIn.cpp">
+      <Filter>ObjectStream</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamOut.cpp">
+      <Filter>ObjectStream</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamTextIn.cpp">
+      <Filter>ObjectStream</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamTextOut.cpp">
+      <Filter>ObjectStream</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\TypeDeclarations.cpp">
+      <Filter>ObjectStream</Filter>
+    </ClCompile>
+    <ClCompile Include="Jolt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\AABBTree\AABBTreeBuilder.h">
+      <Filter>AABBTree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\AABBTree\AABBTreeToBuffer.h">
+      <Filter>AABBTree</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\AABBTree\NodeCodec\NodeCodecQuadTreeHalfFloat.h">
+      <Filter>AABBTree\NodeCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\AABBTree\TriangleCodec\TriangleCodecIndexed8BitPackSOA4Flags.h">
+      <Filter>AABBTree\TriangleCodec</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\ARMNeon.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Array.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Atomics.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\ByteBuffer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Color.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Factory.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\FixedSizeFreeList.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\FixedSizeFreeList.inl">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\FPControlWord.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\FPException.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\FPFlushDenormals.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\HashCombine.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\InsertionSort.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\IssueReporting.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\JobSystem.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\JobSystem.inl">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\JobSystemSingleThreaded.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\JobSystemThreadPool.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\JobSystemWithBarrier.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\LinearCurve.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\LockFreeHashMap.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\LockFreeHashMap.inl">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Memory.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Mutex.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\MutexArray.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\NonCopyable.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Profiler.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Profiler.inl">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\QuickSort.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Reference.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Result.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\RTTI.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\ScopeExit.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\Semaphore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\StaticArray.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\StreamIn.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\StreamOut.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\StreamUtils.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\StreamWrapper.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\StringTools.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\STLAlignedAllocator.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\STLAllocator.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\STLTempAllocator.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\TempAllocator.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\TickCounter.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\UnorderedMap.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Core\UnorderedSet.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\AABox.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\AABox4.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\ClipPoly.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\ClosestPoint.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\ConvexHullBuilder.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\ConvexHullBuilder2D.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\ConvexSupport.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\Ellipse.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\EPAConvexHullBuilder.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\EPAPenetrationDepth.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\GJKClosestPoint.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\IndexedTriangle.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\Indexify.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\MortonCode.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\OrientedBox.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\Plane.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\RayAABox.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\RayAABox8.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\RayCapsule.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\RayCylinder.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\RaySphere.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\RayTriangle.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\RayTriangle8.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\Sphere.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Geometry\Triangle.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Jolt.h" />
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\DMat44.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\DMat44.inl">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Double3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\DVec3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\DVec3.inl">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\DynMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\EigenValueSymmetric.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\FindRoot.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Float2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Float3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Float4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\GaussianElimination.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\HalfFloat.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Mat44.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Mat44.inl">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\MathTypes.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Quat.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Quat.inl">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Real.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Swizzle.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Trigonometry.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\UVec4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\UVec4.inl">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\UVec8.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\UVec8.inl">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Vec3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Vec3.inl">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Vec4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Vec4.inl">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Vec8.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Vec8.inl">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Math\Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\SerializableObject.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\AllowedDOFs.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\Body.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\Body.inl">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyAccess.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyActivationListener.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyCreationSettings.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyFilter.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyID.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyInterface.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyLock.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyLockInterface.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyLockMulti.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyManager.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyPair.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\BodyType.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\MassProperties.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\MotionProperties.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\MotionProperties.inl">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\MotionQuality.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Body\MotionType.h">
+      <Filter>Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Character\Character.h">
+      <Filter>Physics\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Character\CharacterBase.h">
+      <Filter>Physics\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Character\CharacterVirtual.h">
+      <Filter>Physics\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\AABoxCast.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\ActiveEdgeMode.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\ActiveEdges.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BackFaceMode.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\BroadPhase.h">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\BroadPhaseBruteForce.h">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\BroadPhaseLayer.h">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\BroadPhaseLayerInterfaceMask.h">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\BroadPhaseLayerInterfaceTable.h">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\BroadPhaseQuadTree.h">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\BroadPhaseQuery.h">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\ObjectVsBroadPhaseLayerFilterMask.h">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\ObjectVsBroadPhaseLayerFilterTable.h">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\BroadPhase\QuadTree.h">
+      <Filter>Physics\Collision\BroadPhase</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CastConvexVsTriangles.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CastSphereVsTriangles.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CastResult.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollectFacesMode.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollideConvexVsTriangles.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollidePointResult.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollideShape.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollideSoftBodyVerticesVsTriangles.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollideSphereVsTriangles.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollisionCollector.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollisionCollectorImpl.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollisionDispatch.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\CollisionGroup.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\ContactListener.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\EstimateCollisionResponse.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\GroupFilter.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\GroupFilterTable.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\InternalEdgeRemovingCollector.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\ManifoldBetweenTwoFaces.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\NarrowPhaseQuery.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\NarrowPhaseStats.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\ObjectLayer.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\ObjectLayerPairFilterMask.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\ObjectLayerPairFilterTable.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\PhysicsMaterial.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\PhysicsMaterialSimple.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\RayCast.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\BoxShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\CapsuleShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\CompoundShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\CompoundShapeVisitors.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\ConvexHullShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\ConvexShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\CylinderShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\DecoratedShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\GetTrianglesContext.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\HeightFieldShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\MeshShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\MutableCompoundShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\OffsetCenterOfMassShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\PolyhedronSubmergedVolumeCalculator.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\RotatedTranslatedShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\ScaledShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\ScaleHelpers.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\Shape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\SphereShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\StaticCompoundShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\SubShapeID.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\SubShapeIDPair.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\TaperedCapsuleShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\TriangleShape.h">
+      <Filter>Physics\Collision\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\ShapeCast.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\ShapeFilter.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\SortReverseAndStore.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\TransformedShape.h">
+      <Filter>Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\CalculateSolverSteps.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConeConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\Constraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintManager.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintPart\AngleConstraintPart.h">
+      <Filter>Physics\Constraints\ConstraintPart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintPart\AxisConstraintPart.h">
+      <Filter>Physics\Constraints\ConstraintPart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintPart\DualAxisConstraintPart.h">
+      <Filter>Physics\Constraints\ConstraintPart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintPart\GearConstraintPart.h">
+      <Filter>Physics\Constraints\ConstraintPart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintPart\HingeRotationConstraintPart.h">
+      <Filter>Physics\Constraints\ConstraintPart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintPart\IndependentAxisConstraintPart.h">
+      <Filter>Physics\Constraints\ConstraintPart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintPart\PointConstraintPart.h">
+      <Filter>Physics\Constraints\ConstraintPart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintPart\RackAndPinionConstraintPart.h">
+      <Filter>Physics\Constraints\ConstraintPart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintPart\RotationEulerConstraintPart.h">
+      <Filter>Physics\Constraints\ConstraintPart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintPart\RotationQuatConstraintPart.h">
+      <Filter>Physics\Constraints\ConstraintPart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintPart\SpringPart.h">
+      <Filter>Physics\Constraints\ConstraintPart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ConstraintPart\SwingTwistConstraintPart.h">
+      <Filter>Physics\Constraints\ConstraintPart</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\ContactConstraintManager.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\DistanceConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\FixedConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\GearConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\HingeConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\MotorSettings.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\PathConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\PathConstraintPath.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\PathConstraintPathHermite.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\PointConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\PulleyConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\RackAndPinionConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\SixDOFConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\SliderConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\SpringSettings.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\SwingTwistConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Constraints\TwoBodyConstraint.h">
+      <Filter>Physics\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\DeterminismLog.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\EActivation.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\EPhysicsUpdateError.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\IslandBuilder.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\LargeIslandSplitter.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\PhysicsLock.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\PhysicsScene.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\PhysicsSettings.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\PhysicsStepListener.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\PhysicsSystem.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\PhysicsUpdateContext.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Ragdoll\Ragdoll.h">
+      <Filter>Physics\Ragdoll</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\SoftBody\SoftBodyContactListener.h">
+      <Filter>Physics\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\SoftBody\SoftBodyCreationSettings.h">
+      <Filter>Physics\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\SoftBody\SoftBodyManifold.h">
+      <Filter>Physics\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\SoftBody\SoftBodyMotionProperties.h">
+      <Filter>Physics\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\SoftBody\SoftBodyShape.h">
+      <Filter>Physics\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\SoftBody\SoftBodySharedSettings.h">
+      <Filter>Physics\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\SoftBody\SoftBodyVertex.h">
+      <Filter>Physics\SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\StateRecorder.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\StateRecorderImpl.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\MotorcycleController.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\TrackedVehicleController.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleAntiRollBar.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleCollisionTester.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleConstraint.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleController.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleDifferential.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleEngine.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleTrack.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\VehicleTransmission.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\Wheel.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Vehicle\WheeledVehicleController.h">
+      <Filter>Physics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\RegisterTypes.h" />
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Renderer\DebugRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Renderer\DebugRendererPlayback.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Renderer\DebugRendererRecorder.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Renderer\DebugRendererSimple.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Skeleton\SkeletalAnimation.h">
+      <Filter>Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Skeleton\Skeleton.h">
+      <Filter>Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Skeleton\SkeletonMapper.h">
+      <Filter>Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Skeleton\SkeletonPose.h">
+      <Filter>Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleGrouper\TriangleGrouper.h">
+      <Filter>TriangleGrouper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleGrouper\TriangleGrouperClosestCentroid.h">
+      <Filter>TriangleGrouper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleGrouper\TriangleGrouperMorton.h">
+      <Filter>TriangleGrouper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleSplitter\TriangleSplitter.h">
+      <Filter>TriangleSplitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleSplitter\TriangleSplitterBinning.h">
+      <Filter>TriangleSplitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleSplitter\TriangleSplitterFixedLeafSize.h">
+      <Filter>TriangleSplitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleSplitter\TriangleSplitterLongestAxis.h">
+      <Filter>TriangleSplitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleSplitter\TriangleSplitterMean.h">
+      <Filter>TriangleSplitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\TriangleSplitter\TriangleSplitterMorton.h">
+      <Filter>TriangleSplitter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\GetPrimitiveTypeOfType.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStream.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamBinaryIn.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamBinaryOut.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamIn.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamOut.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamTextIn.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamTextOut.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\ObjectStreamTypes.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\SerializableAttribute.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\SerializableAttributeEnum.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\SerializableAttributeTyped.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\TypeDeclarations.h">
+      <Filter>ObjectStream</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\CMakeFiles\Jolt.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\CMakeFiles\Jolt.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\CMakeFiles\Jolt.dir\Distribution\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Jolt.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Jolt.cmake" />
+    <None Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Physics\Collision\Shape\TaperedCapsuleShape.gliffy">
+      <Filter>Physics\Collision\Shape</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AABBTree">
+      <UniqueIdentifier>{3D6D8F3C-18AE-3BEF-8105-EE6D4BDE1904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AABBTree\NodeCodec">
+      <UniqueIdentifier>{393BFDE6-02ED-35A7-8C8C-9EF56BAEA48F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AABBTree\TriangleCodec">
+      <UniqueIdentifier>{CD09FE28-7F2D-3899-B236-98B533C93F6A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{A3B84C92-C04E-3DEF-8274-5BD14009E83F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{8F27A4B0-EB70-3CFE-A25A-885808C23330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{90F47355-BBA2-34A5-909D-87D72420E5CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectStream">
+      <UniqueIdentifier>{63DDC2F8-1666-382E-90B7-519969A16600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{B2AFB0B5-510F-313C-83EA-6367C762924E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Body">
+      <UniqueIdentifier>{B82B576C-6583-3210-9CF1-E2C8D8582AB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Character">
+      <UniqueIdentifier>{81EB0C1B-420F-33E3-A334-E9BBCAC339C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Collision">
+      <UniqueIdentifier>{D0C8A5F7-098A-341F-9E72-15723DBA5252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Collision\BroadPhase">
+      <UniqueIdentifier>{130AB229-C554-3D04-86C6-773A5DD3DF8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Collision\Shape">
+      <UniqueIdentifier>{083014D3-E019-39C8-8463-3D4151BB030C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Constraints">
+      <UniqueIdentifier>{ED87C31B-C0C5-3265-9433-33C329C04D82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Constraints\ConstraintPart">
+      <UniqueIdentifier>{B913890B-A3EB-3365-B0F0-576F525C9686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Ragdoll">
+      <UniqueIdentifier>{B5BB0C3E-780C-3596-9A64-3BC30E6CD879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\SoftBody">
+      <UniqueIdentifier>{D0C68A5F-05BF-370C-AA11-95A650E73BF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Vehicle">
+      <UniqueIdentifier>{C886BF60-CD94-37EF-82A6-175D71CE43FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{590E64E1-9B3F-3DF0-8E67-4733350AB7DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{DCE2BAC4-4A67-3978-91AC-291CD1103FF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skeleton">
+      <UniqueIdentifier>{38B76BCD-6B2B-35C9-A8A1-2B3F64112492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BBB3A79E-D061-38FD-91A8-5AA2ECA4F1FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TriangleGrouper">
+      <UniqueIdentifier>{BAC333C8-5D90-3307-B187-879F1603D49E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TriangleSplitter">
+      <UniqueIdentifier>{2826BE79-CA1E-3CB1-A506-4BDBB3F2B371}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
