@@ -65,6 +65,15 @@
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Distribution|x64'">Jolt</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Distribution|x64'">.lib</TargetExt>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Distribution|x64'">
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <EnableMicrosoftCodeAnalysis>false</EnableMicrosoftCodeAnalysis>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalIncludeDirectories>$(SolutionDir)Vendor\Jolt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -93,7 +102,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>true</UseFullPaths>
       <WarningLevel>EnableAllWarnings</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_DEBUG;JPH_FLOATING_POINT_EXCEPTIONS_ENABLED;JPH_CROSS_PLATFORM_DETERMINISTIC;JPH_DEBUG_RENDERER;JPH_PROFILE_ENABLED;JPH_OBJECT_STREAM;JPH_USE_AVX2;JPH_USE_AVX;JPH_USE_SSE4_1;JPH_USE_SSE4_2;JPH_USE_LZCNT;JPH_USE_TZCNT;JPH_USE_F16C;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;JPH_DOUBLE_PRECISION;_DEBUG;JPH_FLOATING_POINT_EXCEPTIONS_ENABLED;JPH_CROSS_PLATFORM_DETERMINISTIC;JPH_DEBUG_RENDERER;JPH_PROFILE_ENABLED;JPH_OBJECT_STREAM;JPH_USE_AVX2;JPH_USE_AVX;JPH_USE_SSE4_1;JPH_USE_SSE4_2;JPH_USE_LZCNT;JPH_USE_TZCNT;JPH_USE_F16C;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
@@ -143,7 +152,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>true</UseFullPaths>
       <WarningLevel>EnableAllWarnings</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;JPH_FLOATING_POINT_EXCEPTIONS_ENABLED;JPH_CROSS_PLATFORM_DETERMINISTIC;JPH_DEBUG_RENDERER;JPH_PROFILE_ENABLED;JPH_OBJECT_STREAM;JPH_USE_AVX2;JPH_USE_AVX;JPH_USE_SSE4_1;JPH_USE_SSE4_2;JPH_USE_LZCNT;JPH_USE_TZCNT;JPH_USE_F16C;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;JPH_DOUBLE_PRECISION;NDEBUG;JPH_FLOATING_POINT_EXCEPTIONS_ENABLED;JPH_CROSS_PLATFORM_DETERMINISTIC;JPH_DEBUG_RENDERER;JPH_PROFILE_ENABLED;JPH_OBJECT_STREAM;JPH_USE_AVX2;JPH_USE_AVX;JPH_USE_SSE4_1;JPH_USE_SSE4_2;JPH_USE_LZCNT;JPH_USE_TZCNT;JPH_USE_F16C;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
@@ -193,7 +202,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>true</UseFullPaths>
       <WarningLevel>EnableAllWarnings</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;JPH_CROSS_PLATFORM_DETERMINISTIC;JPH_OBJECT_STREAM;JPH_USE_AVX2;JPH_USE_AVX;JPH_USE_SSE4_1;JPH_USE_SSE4_2;JPH_USE_LZCNT;JPH_USE_TZCNT;JPH_USE_F16C;CMAKE_INTDIR="Distribution"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;JPH_DOUBLE_PRECISION;NDEBUG;JPH_CROSS_PLATFORM_DETERMINISTIC;JPH_OBJECT_STREAM;JPH_USE_AVX2;JPH_USE_AVX;JPH_USE_SSE4_1;JPH_USE_SSE4_2;JPH_USE_LZCNT;JPH_USE_TZCNT;JPH_USE_F16C;CMAKE_INTDIR="Distribution"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
@@ -259,20 +268,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\CMakeFiles\Jolt.dir\cmake_pch.cxx">
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/niels/Portfolio/C++/Poseidon-Engine/Vendor/Jolt/Build/VS2022_CL_CPD/CMakeFiles/Jolt.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/niels/Portfolio/C++/Poseidon-Engine/Vendor/Jolt/Build/VS2022_CL_CPD/CMakeFiles/Jolt.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/niels/Portfolio/C++/Poseidon-Engine/Vendor/Jolt/Build/VS2022_CL_CPD/Jolt.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/niels/Portfolio/C++/Poseidon-Engine/Vendor/Jolt/Build/VS2022_CL_CPD/CMakeFiles/Jolt.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/niels/Portfolio/C++/Poseidon-Engine/Vendor/Jolt/Build/VS2022_CL_CPD/CMakeFiles/Jolt.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/niels/Portfolio/C++/Poseidon-Engine/Vendor/Jolt/Build/VS2022_CL_CPD/Jolt.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
-      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Distribution|x64'">C:/Users/niels/Portfolio/C++/Poseidon-Engine/Vendor/Jolt/Build/VS2022_CL_CPD/CMakeFiles/Jolt.dir/Distribution/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Distribution|x64'">Create</PrecompiledHeader>
-      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Distribution|x64'">C:/Users/niels/Portfolio/C++/Poseidon-Engine/Vendor/Jolt/Build/VS2022_CL_CPD/CMakeFiles/Jolt.dir/Distribution/cmake_pch.hxx</PrecompiledHeaderFile>
-      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Distribution|x64'">C:/Users/niels/Portfolio/C++/Poseidon-Engine/Vendor/Jolt/Build/VS2022_CL_CPD/Jolt.dir/Distribution/cmake_pch.pch</PrecompiledHeaderOutputFile>
-    </ClCompile>
     <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\AABBTree\AABBTreeBuilder.cpp">
       <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/niels/Portfolio/C++/Poseidon-Engine/Vendor/Jolt/Build/VS2022_CL_CPD/CMakeFiles/Jolt.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/niels/Portfolio/C++/Poseidon-Engine/Vendor/Jolt/Build/VS2022_CL_CPD/CMakeFiles/Jolt.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -1271,9 +1266,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\TypeDeclarations.h" />
     <Natvis Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\Jolt.natvis">
     </Natvis>
-    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\CMakeFiles\Jolt.dir\Debug\cmake_pch.hxx" />
-    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\CMakeFiles\Jolt.dir\Release\cmake_pch.hxx" />
-    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\CMakeFiles\Jolt.dir\Distribution\cmake_pch.hxx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\ZERO_CHECK.vcxproj">

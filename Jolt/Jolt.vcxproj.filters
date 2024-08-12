@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\CMakeFiles\Jolt.dir\cmake_pch.cxx">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\AABBTree\AABBTreeBuilder.cpp">
       <Filter>AABBTree</Filter>
     </ClCompile>
@@ -1317,15 +1314,6 @@
     </ClInclude>
     <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Jolt\ObjectStream\TypeDeclarations.h">
       <Filter>ObjectStream</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\CMakeFiles\Jolt.dir\Debug\cmake_pch.hxx">
-      <Filter>Precompile Header File</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\CMakeFiles\Jolt.dir\Release\cmake_pch.hxx">
-      <Filter>Precompile Header File</Filter>
-    </ClInclude>
-    <ClInclude Include="C:\Users\niels\Portfolio\C++\Poseidon-Engine\Vendor\Jolt\Build\VS2022_CL_CPD\CMakeFiles\Jolt.dir\Distribution\cmake_pch.hxx">
-      <Filter>Precompile Header File</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
